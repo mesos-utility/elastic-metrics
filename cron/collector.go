@@ -38,6 +38,6 @@ func collect(SrvCfg *g.ServiceConfig) {
 			log.Printf("%v\n", mvs)
 		}
 
-		g.SendToTransfer(mvs)
+		g.SendMetrics(mvs)
 	}
 }
